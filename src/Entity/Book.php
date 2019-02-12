@@ -26,6 +26,11 @@ class Book
      */
     private $price;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $available;
+
     public function getId(): ?int
     {
         return $this->id;
